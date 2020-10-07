@@ -6,6 +6,11 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
 /* Header */
 .header {
     height: 100px;
@@ -159,4 +164,46 @@ h1 {
 .services p {
     margin-top: 1rem;
     margin-bottom: 5rem;
+}
+
+/* Why choose us */
+.choose {
+    text-align: center;
+    margin: 5rem 6rem 2rem;
+}
+
+.choose h2 {
+    margin-bottom: 2rem;
+}
+
+.choose p {
+    line-height: 30px;
+}
+
+
+.points {
+    display: flex;
+}
+
+.points-prodessional {
+    margin-top: 7rem;
+}
+
+.points-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.points-title__img {
+    background-color: #1a9bdc;
+    border-radius: 50%;
+    padding: 10px;
+    margin-right: 1rem;
+}
+
+.points-title h3 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        color: #6f6f6e;
 }

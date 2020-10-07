@@ -1,0 +1,162 @@
+/*   font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif; */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Header */
+.header {
+    height: 100px;
+    border-bottom: 1px solid rgba(194, 194, 194, 0.31);
+}
+
+.logo{
+    margin-top: 20px;
+}
+
+.header-contacts {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.icon {
+    background-color: #1a9bdc;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.icon-phone {
+    padding: 9px 14px;
+}
+
+.phone {
+    width: 15px;
+}
+
+.contact {
+    color: #6a6a6a;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.hours {
+    font-size: 14px;
+    padding-left: 13px;
+}
+
+.contact p {
+    margin-bottom: 0;
+}
+
+.contact a {
+    color: #6a6a6a;
+}
+
+.navbar {
+    padding-left: 0;
+}
+
+.nav-menu {
+    padding-right: 0.8rem;
+}
+
+.header-socials {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+/* Main-Banner */
+.main {
+    background: url("../img/header/bg.png") no-repeat right;
+    background-size: cover;
+}
+
+.main-info {
+    text-align: center;
+}
+
+h1 {
+    font-family: Montserrat;
+    font-weight: 400;
+    padding: 0 30px;
+    margin: 100px auto 40px;
+}
+
+.main-info p {
+    padding: 0 50px;
+    margin-bottom: 40px
+}
+
+.header-button {
+    margin-bottom: 170px;
+    border: 0;
+    background-color: #1a9bdc;
+    box-shadow: -4px 12px 40px rgba(0, 1, 1, 0.2);
+    color: #fff;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.main-logo {
+    position: relative;
+}
+
+.logo-copy {
+    position: absolute;
+    top: 85%;
+}
+
+/* Services */
+.services {
+    text-align: center;
+    color: #fff;
+}
+.service-img {
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 15px;
+    margin-top: 4rem;
+    margin-bottom: 1.5rem;
+}
+
+.service-img__exeption {
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 11px 22px;
+    margin-top: 4rem;
+    margin-bottom: 1.5rem;
+}
+
+.service-one {
+    background-color: #43b1d2;
+}
+
+.service-two {
+    background-color: #3fb6c6;
+}
+
+.service-three {
+    background-color: #3cbbbb;
+}
+
+.service-four {
+    background-color: #37c3a8;
+}
+
+.services p {
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+}

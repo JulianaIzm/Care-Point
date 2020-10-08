@@ -77,9 +77,17 @@ h1 {
     align-items: center;
 }
 
+.header-socials__logo {
+    margin-right: 1rem;
+}
+
+.header-socials__logo:last-child {
+    margin-right: 0;
+}
+
 /* Main-Banner */
 .main {
-    background: url("../img/header/bg.png") no-repeat right;
+    background: url("../img/Main/bg.png") no-repeat right;
     background-size: cover;
 }
 
@@ -111,15 +119,6 @@ h1 {
     font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
-}
-
-.main-logo {
-    position: relative;
-}
-
-.logo-copy {
-    position: absolute;
-    top: 85%;
 }
 
 /* Services */

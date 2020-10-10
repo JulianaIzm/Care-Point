@@ -218,3 +218,30 @@ h1 {
     text-align: center;
     margin-top: 7rem;
 }
+
+.best-feature__img {
+    height: 70px;
+    margin-bottom: 2rem;
+}
+
+.best-features__digit {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+.best-features__digit::after {
+    content: "";
+    border: 2px solid #fff;
+    position: absolute;
+    width: 4rem;
+    top: 4rem;
+    left: 6rem;
+}
+
+.best-feature__benefit {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    margin-bottom: 7rem;
+}

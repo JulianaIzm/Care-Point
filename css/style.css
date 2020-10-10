@@ -245,3 +245,71 @@ h1 {
     font-size: 22px;
     margin-bottom: 7rem;
 }
+
+/* Text area */
+.text-area {
+    margin-top: 90px;
+}
+.text-area h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.textarea-button {
+    background: #1a9bdc;
+    border-radius: 30px;
+    border: 0;
+    padding: 5px;
+    min-width: 100%;
+    margin-bottom: 15px;
+}
+
+.butn {
+    margin-bottom: 30px;
+}
+.text-area__creative {
+    display: flex;
+}
+
+.text-area__creative p {
+    margin-bottom: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    margin: 5px 20px;
+}
+
+.textarea-img {
+    margin-bottom: 2rem;
+}
+
+.text-area-container h4 {
+    font-family: 'Montserrat', sans-serif;
+    color: #6f6f6e;
+}
+
+.textarea-blue {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    color:#1c8ec1;
+}
+
+.textarea-blue p {
+    padding-right: 10px;
+}
+
+.textarea-info {
+    color: #6f6f6e;
+}
+
+.textarea-button__grey {
+    background: #e2e2e2;
+    border-radius: 30px;
+    border: 0;
+    padding: 5px;
+    min-width: 100%;
+    margin-bottom: 15px;
+}
+
+.textarea__grey p {
+    color: #494949;
+}

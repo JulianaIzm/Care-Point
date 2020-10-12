@@ -348,6 +348,45 @@ h1 {
 }
 
 .gallery-second-line {
+    display: flex;
     margin-bottom: 5rem;
 }
 
+/* Our Team */
+.our-team__info {
+    display: block;
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+.our-team__info h2 {
+    columns: #494949;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.our-team__info p {
+    color: #767676;
+}
+
+.our-team__person {
+    color: #6f6f6e;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin-bottom: 5rem;
+}
+
+.our-team__person h4 {
+    margin-top: 1.5rem;
+}
+
+.our-team__socials {
+    display: flex;
+    justify-content: center;
+}
+
+.our-team__icon {
+    margin-right: 1rem;
+}

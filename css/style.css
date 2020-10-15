@@ -458,3 +458,39 @@ h1 {
 .footer__socials {
     display: flex;
 }
+
+.footer-quick {
+    list-style: none;
+    padding-left: 0;
+}
+
+
+.footer-quick li {
+    margin-bottom: 0.8rem;
+}
+.footer-quick a {
+    color: #a9a9a9;
+    margin-left: 1rem;
+}
+
+.our-form {
+    background-color: transparent;
+    background-color: transparent;
+    padding-left: 0;
+    padding-bottom: 1rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    border-bottom: 2px solid #424242;
+}
+
+.our-form::placeholder {
+    color: #a9a9a9;
+}
+
+.footer-button {
+    padding: 5px 30px;
+    font-size: 16px;
+    margin-top: 0.5rem;
+}

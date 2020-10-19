@@ -12,7 +12,7 @@
     <div class="container">
         <!-- Header -->
         <div class="row header">
-            <div class="col-4">
+            <div class="col-3">
                 <a href="#"><img src="img/header/Logo.png" alt="CarePoint" class="d-block logo"></a>
             </div>
             <div class="col-3 header-contacts">
@@ -29,8 +29,8 @@
                     <a href="mailto:free@psd.in.ua">free@psd.in.ua</a>
                 </div>
             </div>
-            <div class="col-2 header-contacts">
-                <div class="icon icon-phone"><img src="img/header/tel.png" alt="" class="phone"></div>
+            <div class="col-3 header-contacts">
+                <div><img src="img/header/tel.png" alt=""></div>
                 <div class="contact hours">
                     <p><strong>CALL US</strong></p>
                     <a href="tel.:12345678900" class="">+123 4567 8900</a>
@@ -97,7 +97,12 @@
                         <h1>We have Best Medicare
                             plan options for you</h1>
                         <p>Sed ut perspiciatis unde omnis iste natus error sit vo- luptatem accusantium doloremque laudantium.</p>
-                        <button type="button" class="header-button">Read more</button>
+                        <button type="button" class="btn btn-primary header-button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Read more</button>
+                        <div class="collapse" id="collapseExample">
+                            <div class="card card-body">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore ipsam laborum, nam distinctio ducimus dolorem pariatur totam consequatur laboriosam tenetur ad reprehenderit iste recusandae illum expedita veniam voluptatem facere labore!
+                            </div>
+                          </div>
                     </div>
                     <div class="col-6 main-logo">
                     </div>
@@ -414,7 +419,12 @@
                         <h4>New Patient Special Offer Complimentary Consultation</h4>
                     </div>
                     <div class="col-3 action-bar_btn">
-                        <button type="button" class="header-button">Read more</button>
+                        <button type="button" class="btn btn-primary header-button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Read more</button>
+                        <div class="collapse" id="collapseExample">
+                            <div class="card card-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -452,19 +462,19 @@
                             </div>
                         </div>
                         <div class="footer__socials">
-                            <div>
+                            <div class="footer-socials__icon">
                                 <a href="#"><img src="img/Footer/facebook.png" alt=""></a>
                             </div>
-                            <div>
+                            <div class="footer-socials__icon">
                                 <a href="#"><img src="img/Footer/google.png" alt=""></a>
                             </div>
-                            <div>
+                            <div class="footer-socials__icon">
                                 <a href="#"><img src="img/Footer/vk.png" alt=""></a>
                             </div>
-                            <div>
+                            <div class="footer-socials__icon">
                                 <a href="#"><img src="img/Footer/youtube.png" alt=""></a>
                             </div>
-                            <div>
+                            <div class="footer-socials__icon">
                                 <a href="#"><img src="img/Footer/linkedin.png" alt=""></a>
                             </div>
                         </div>
@@ -499,20 +509,23 @@
                         <h5>Enquiry Form</h5>
                         <form>
                             <div class="form-group">
-                              <input type="email" class="form-control our-form" id="exampleFormControlInput1" placeholder="Name">
+                                <input type="email" class="form-control our-form" id="exampleFormControlInput1" placeholder="Name">
                             </div>
                             <div class="form-group">
                                 <input type="email" class="form-control our-form" id="exampleFormControlInput1" placeholder="Phone">
                             </div>
                             <div class="form-group">
-                              <textarea class="form-control our-form" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+                                <textarea class="form-control our-form our-form__message" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
                             </div>
                             <button type="button" class="header-button footer-button">Submit</button>
-                          </form>
+                        </form>
                     </div>
                 </div>
             </div>
         </section>
     
 </body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </html>

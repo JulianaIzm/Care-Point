@@ -71,7 +71,7 @@ h1 {
     margin-right: 0;
 }
 
-/* Main-Banner */
+/* Main */
 .main {
     background: url("../img/Main/bg.png") no-repeat right;
     background-size: cover;
@@ -232,31 +232,48 @@ h1 {
     font-weight: bold;
 }
 
-.textarea-button {
-    background: #1a9bdc;
-    border-radius: 30px;
-    border: 0;
+.text-area__creative {
+    display: flex;
+    background: #e2e2e2;
+    border-radius: 30px !important;
+    border: 0 !important;
     padding: 5px;
     min-width: 100%;
     margin-bottom: 15px;
 }
 
-.butn {
-    margin-bottom: 30px;
-}
-.text-area__creative {
+.text-area__creativeException {
     display: flex;
+    background: #0087be;
+    border-radius: 30px !important;
+    border: 0 !important;
+    padding: 5px;
+    min-width: 100%;
+    margin-bottom: 15px;
+}
+.card {
+    border: 0;
+    margin-bottom: 10px;
 }
 
-.text-area__creative p {
+.btn__title {
     margin-bottom: 0;
-    font-family: 'Montserrat', sans-serif;
-    color: #fff;
-    margin: 5px 20px;
+    font-family: 'Montserrat', sans-serif !important;
+    color: #7c7c7c !important;
+}
+
+.btn__titleException {
+    margin-bottom: 0;
+    font-family: 'Montserrat', sans-serif !important;
+    color: #fff !important;
 }
 
 .textarea-img {
     margin-bottom: 2rem;
+}
+
+.butn {
+    margin-bottom: 30px;
 }
 
 .text-area-container h4 {
@@ -276,19 +293,6 @@ h1 {
 
 .textarea-info {
     color: #6f6f6e;
-}
-
-.textarea-button__grey {
-    background: #e2e2e2;
-    border-radius: 30px;
-    border: 0;
-    padding: 5px;
-    min-width: 100%;
-    margin-bottom: 15px;
-}
-
-.textarea__grey p {
-    color: #494949;
 }
 
 .ta-btn {
@@ -329,6 +333,10 @@ h1 {
     margin-bottom: 5rem;
 }
 
+.gallery-img:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
 /* Our Team */
 .our-team__info {
     display: block;
@@ -353,6 +361,11 @@ h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     margin-bottom: 5rem;
+}
+
+.our-team__person:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
 }
 
 .our-team__person h4 {
